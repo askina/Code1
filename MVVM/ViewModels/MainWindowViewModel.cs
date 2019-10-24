@@ -50,7 +50,7 @@ namespace MVVM.ViewModels
         private void Add(object parameter)
         {
             this.Result = this.Input1 + this.Input2;           
-            this.Result_color = new SolidColorBrush(Colors.LightGreen);
+            this.Result_color = new SolidColorBrush(Colors.Red);
         }
         public DelegateCommand AddCommand { get; set; }
 
